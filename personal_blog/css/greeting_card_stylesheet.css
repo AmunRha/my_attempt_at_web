@@ -1,0 +1,41 @@
+		body {
+			background-image: url('https://w.wallhaven.cc/full/r7/wallhaven-r7z67m.jpg');
+			background-color: black;
+			background-position: top right;
+			background-repeat: no-repeat;
+			background-size: 81%;
+		}
+		
+		.greeting-title, .happy, .valentines, .day{
+			position: absolute;
+			color: white;
+			font-family: 'Great Vibes', cursive;
+			font-size: 600%;
+			padding-left: 18%;
+			text-shadow: 1px 1px 2px black, 0 0 25px pink, 0 0 5px darkblue;
+		}
+		.quote {
+			color: white;
+			font-family: 'Great Vibes', cursive;
+			font-size:300%;
+			padding-top: 4%;
+			padding-left: 5%;
+			text-shadow: 2px 2px 5px red;
+		}
+		.heart-bg {
+			width: 50%;
+			top: 150px;
+		}
+		.heart-bg, .greeting-title {
+			position: absolute;
+		}
+		.happy {
+			padding-left: 14%;
+		}
+		.valentines {
+			padding-top: 5.7%;
+		}
+		.day {
+			padding-top: 11%;
+		}
+		

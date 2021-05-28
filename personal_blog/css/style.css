@@ -1,0 +1,75 @@
+	.center {
+		display: flex;
+		
+		margin: auto;
+		width: 60%;
+		padding: 1%;
+	}
+
+	.emoji-form{
+		margin: auto;
+		width: 60%;
+		padding: 1%;
+	}
+	
+	.parent-about .pfp{
+		padding: 10px;
+	}
+	
+	.parent-about .about-para{
+		padding: 10px;
+		padding-top: 30px;
+	}
+	
+	.site-header-parent{
+		justify-content: flex-end;
+	}
+	
+	.header-pfp{
+		margin-right: auto;
+		padding: 0px;
+	}
+	
+	.list-flex{
+		display: flex;
+		flex-wrap: wrap;
+		padding: 0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.marginleft{
+		padding: 0;
+		padding-bottom: 1%;
+		margin-left: 0;
+		margin-right: 0;
+		width: 50%;
+		text-align: center;
+	}
+
+	footer {
+		height: 60px;
+		padding-top: 20px;
+		display: block;
+		margin-top: 20px;
+		box-sizing: border-box;
+	}
+	
+	.text-dec-on{
+		text-decoration: underline;
+	}
+	
+	ul li{
+		list-style-type: none;
+		padding-left: 10%;
+	}
+	
+	a{
+		text-decoration: none !important;
+		color: white !important;
+	}
+	
+	body{
+		font-family: 'Fira Code', monospace;
+	}
+	
