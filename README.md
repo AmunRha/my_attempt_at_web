@@ -7,7 +7,7 @@ This repo contains my futile attempt at trying basic frontend stuff. Yes! I am b
 
 # Take A Look
 
-## Attempt 1- *pseudo*Resume
+## Attempt 1 - *pseudo*Resume
 Copied my github README.md, converted to HTML, added css and there you go!
 
 Screenshot - 1
@@ -29,4 +29,12 @@ Screenshot - 1
 
 ---
 
+## Attempt 3 - Personal Blog
+A text driven personal blog
+
+Screenshot - 1
+![](https://raw.githubusercontent.com/AmunRha/my_attempt_at_web/main/personal_blog/Screenshot%202021-05-28%20160315.png)
+
+Screenshot - 2
+![](https://raw.githubusercontent.com/AmunRha/my_attempt_at_web/main/personal_blog/Screenshot%202021-05-28%20160341.png)
 
