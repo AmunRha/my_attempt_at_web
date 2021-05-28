@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Labsheet-5</title>
+    <style>
+        .form {
+            margin-top: 4%;
+            margin-left: 15%;
+            margin-right: 15%;
+            border: 1px solid ;
+            padding: 3%;
+            padding-bottom: 1%;
+        }
+
+        .row {
+            width: 100%;
+            display: inline-block;
+            padding: 1%;
+        }
+
+        .container {
+            display: inline-block;
+            padding: 1%;
+            width: 100%;
+            display: flex;
+        }
+
+        .container .left {
+            flex: 15%;
+        }
+
+        .container .right {
+            flex: 85%;
+        }
+
+        .col {
+            display: flex;
+        }
+
+        .col .left {
+            flex: 50%;
+        }
+
+        .col .right {
+            flex: 50%;
+        }
+
+        .tablecol {
+            width: 75%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="form" id="form">
+        <form action="/">
+            <div class="row">
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname" required>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname" required>
+            </div>
+            <div class="col">
+                <div class="left">
+                    <label for="fname">Address #1:</label>
+                    <input type="text" class="tablecol" id="add1" name="add1">
+                    <label for="fname">Address #2:</label>
+                    <input type="text" class="tablecol" id="add2" name="add2">
+                </div>
+                <div class="right" style="padding-top: 1%;">
+                    <label for="email">Email:</label>
+                    <input id="email" type="email" name="email" required>
+                </div>
+            </div>
+            <div class="row">
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" required>
+                <label for="state">State:</label>
+                <input type="text" id="state" name="state" required>
+                <label for="zip">Zip:</label>
+                <input type="text" id="zip" name="zip" required>
+            </div>
+            <hr>
+            <div class="container">
+                <div class="left">
+                    <label for="product">Product:</label>
+                </div>
+                <div class="right">
+                    <select id="product" name="product" form="form" required>
+                        <option value="pc">PC</option>
+                        <option value="lap">Lap</option>
+                    </select>
+                </div>
+            </div>
+            <div class="container">
+                <div class="left">
+                    <label for="dp">Date Purchased:</label>
+                </div>
+                <div class="right">
+
+                    <input type="date" id="dp" name="dp" required>
+                </div>
+            </div>
+            <div class="container">
+                <div class="left">
+
+                    <label for="usedfor"> Used for:</label><br>
+                </div>
+                <div class="right">
+
+                    <input type="radio" id="home" name="usedfor" value="home">
+                    <label for="home">Home</label><br>
+                    <input type="radio" id="buisness" name="usedfor" value="buisness">
+                    <label for="buisness">Buisness</label><br>
+                    <input type="radio" id="govt" name="usedfor" value="government">
+                    <label for="govt">Government</label><br>
+                    <input type="radio" id="education" name="usedfor" value="education">
+                    <label for="education">Education</label><br>
+                    <input type="radio" id="other" name="usedfor" value="other">
+                    <label for="other">Other</label><br>
+                </div>
+            </div>
+            <div class="container">
+                <div class="left">
+                    <label for="system"> System(check all that apply):</label>
+                </div>
+                <div class="right">
+                    <input type="checkbox" id="win" name="system" value="Windows">
+                    <label for="win">Windows</label><br>
+                    <input type="checkbox" id="mac" name="usedfor" value="Macintosh">
+                    <label for="govt">Macintosh</label><br>
+                    <input type="checkbox" id="unix" name="usedfor" value="UNIX">
+                    <label for="education">UNIX</label><br>
+                    <input type="checkbox" id="other" name="usedfor" value="other">
+                    <label for="other">Other</label><br>
+                </div>
+            </div>
+            <hr>
+            <div class="container">
+                <div class="left">
+
+                    <label for="comments">
+                        Comments?:
+                    </label>
+                </div>
+                <div class="right">
+                    <textarea rows="6" cols="100" id="comments" name="comments"> </textarea>
+                </div>
+            </div>
+            <div class="row" align="center">
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
